@@ -1,9 +1,58 @@
-Create html file
+# Basic Python
+## 1. Split this string
+s = "Hi there Sam!"
+w=s.split(" ")
+print(w)
+## 2. Use .format() to print the following string. 
 
-1) 4 input boxes
--name
--qualification
--age
--email
--submit button
-(above information should be displayed by we browser)
+### Output should be: The diameter of Earth is 12742 kilometers.
+planet = "Earth"
+diameter = 12742
+print( 'The diameter of {} is {} kilometers.' .format(planet,diameter));
+## 3. In this nest dictionary grab the word "hello"
+d = {'k1':[1,2,3,{'tricky':['oh','man','inception',{'target':[1,2,3,'hello']}]}]}
+w=d['k1'][3]['tricky'][3]['target'][3]
+print(w)
+# Numpy
+import numpy as np
+## 4.1 Create an array of 10 zeros? 
+## 4.2 Create an array of 10 fives?
+arr=np.zeros(10)
+print(arr)
+arr=np.ones(10)*5
+print(arr)
+## 5. Create an array of all the even integers from 20 to 35
+arr=np.arange(20,35,2)
+print(arr)
+## 6. Create a 3x3 matrix with values ranging from 0 to 8
+mat=np.arange(0,9).reshape(3,3)
+print(mat)
+## 7. Concatenate a and b 
+## a = np.array([1, 2, 3]), b = np.array([4, 5, 6])
+a = np.array([1, 2, 3])
+b = np.array([4, 5, 6])
+carr=np.concatenate((a,b),axis=0)
+print(carr)
+# Pandas
+## 8. Create a dataframe with 3 rows and 2 columns
+import pandas as pd
+
+data=[['kaviya',13],['keerthana',14],['ranjith',34]]
+df=pd.DataFrame(data,columns=['Name','Reg.No'])
+df
+## 9. Generate the series of dates from 1st Jan, 2023 to 10th Feb, 2023
+df = pd.DataFrame()
+  
+df['Date'] = pd.date_range(start="1/1/2023",end="2/10/2023")
+  
+
+
+df.head(len(df["Date"]))
+## 10. Create 2D list to DataFrame
+
+lists = [[1, 'aaa', 22],
+         [2, 'bbb', 25],
+         [3, 'ccc', 24]]
+lists = [[1, 'aaa', 22], [2, 'bbb', 25], [3, 'ccc', 24]]
+df=pd.DataFrame(lists, columns=['Sno','Name','Age']);
+print(df)
