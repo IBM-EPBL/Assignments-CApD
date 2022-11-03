@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- CSS only -->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+    <title>Assignment 1</title>
+
+</head>
+
+<body>
+
+    <div class="container p-3">
+
+        <!-- top banner -->
+
+        <div class="row p-3 top-banner rounded align-items-center">
+
+            <div class="col-12 col-md-4 col-lg-3">
+
+                <div class="p-1 bg-light profile-img text-center">
+
+                    <img src="profile.jpg" alt="Profile Photo" class="profile-img rounded">
+
+                </div>
+
+            </div>
+
+            <div class="col-12 col-md-8 col-lg-9">
+
+                <h2 class="text-white">KARAN RAj</h2>
+
+                <p class="text-white">Web Developer</p>
+
+                <!-- download btn -->
+
+                <div class="col-12 col-md-6">
+
+                    <div class="row">
+
+                        <div class="col-6">
+
+                            <button class="btn btn-secondary"><a href="/Devendran v.pdf" download class="text-decoration-none text-white">Download CV</a></button>
+
+                        </div>
+
+                        <div class="col-6">
+
+                            <button class="btn btn-success">Hire Me</button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- body content -->
+
+        <div class="row justify-content-between mt-5">
+
+            <div class="col-12 col-md-6">
+
+                <h2>Profile</h2>
+
+                <p class="mt-4">
+
+                    To attain a challenging position in a well-known
+
+                    organization which can further enhance my learnings,
+
+                    knowledge and skills. – To obtain a position in the
+
+                    organization that can absorb my training and skills, helping
+
+                    me add more value and success to the overall growth of the
+
+                    company.
+
+                </p>
+
+            </div>
+
+            <div class="col-12 col-md-4">
+
+                <div class="row">
+
+                    <p class="col-6">Age</p>
+
+                    <p class="col-6">20</p>
+
+                </div>
+
+                <div class="row">
+
+                    <p class="col-6">Email</p>
+
+                    <p class="col-6 overflow-auto">kr6388392@gmail.com</p>
+
+                </div>
+
+                <div class="row">
+
+                    <p class="col-6">Phone</p>
+
+                    <p class="col-6">9025962502</p>
+
+                </div>
+
+                <div class="row">
+
+                    <p class="col-6">Portfolio link</p>
+
+                    <p class="col-6">
+
+                        <a href="https://devendranportfolio.web.app/">Click here</a>
+
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- skils -->
+
+        <div class="row mt-5">
+
+            <h2>Professional Skills</h2>
+
+            <div class="col-12 col-md-6">
+
+                <div class="mt-4">
+
+                    <span>HTML</span>
+
+                    <div class="progress">
+
+                        <div class="progress-bar" role="progressbar" style="width: 100%"></div>
+
+                    </div>
+
+                </div>
+
+                <div class="mt-4">
+
+                    <span>Css</span>
+
+                    <div class="progress">
+
+                        <div class="progress-bar bg-success" role="progressbar" style="width: 100%"></div>
+
+                    </div>
+
+                </div>
+
+                <div class="mt-4">
+
+                    <span>JavaScript</span>
+
+                    <div class="progress">
+
+                        <div class="progress-bar" role="progressbar" style="width: 80%"></div>
+
+                    </div>
+
+                </div>
+
+                <div class="mt-4">
+
+                    <span>Bootstrap</span>
+
+                    <div class="progress">
+
+                        <div class="progress-bar bg-info" role="progressbar" style="width: 100%"></div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="col-12 col-md-6">
+
+                <div class="mt-4">
+
+                    <span>Angular</span>
+
+                    <div class="progress">
+
+                        <div class="progress-bar bg-success" role="progressbar" style="width: 85%"></div>
+
+                    </div>
+
+                </div>
+
+                <div class="mt-4">
+
+                    <span>React Js</span>
+
+                    <div class="progress">
+
+                        <div class="progress-bar bg-warning" role="progressbar" style="width: 75%"></div>
+
+                    </div>
+
+                </div>
+
+                <div class="mt-4">
+
+                    <span>Node JS</span>
+
+                    <div class="progress">
+
+                        <div class="progress-bar bg-info" role="progressbar" style="width: 50%"></div>
+
+                    </div>
+
+                </div>
+
+                <div class="mt-4">
+
+                    <span>MongoDb</span>
+
+                    <div class="progress">
+
+                        <div class="progress-bar" role="progressbar" style="width: 75%"></div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>
